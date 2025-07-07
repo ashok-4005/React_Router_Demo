@@ -1,12 +1,19 @@
-# React + Vite
+# React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Book Explorer" is a multi-page React application built using React Router to provide a seamless client-side navigation experience. 
 
-Currently, two official plugins are available:
+The app features dedicated routes for Home, Book List, Book Details, and About pages, with nested routing implemented within the Book List to dynamically display individual book details via URL parameters (e.g., /books/:bookId) using the useParams() hook. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A default redirect from / to /books is handled using the <Navigate> component, while a wildcard route (path="*") gracefully manages invalid URLs by rendering a custom NotFound page. 
 
-## Expanding the ESLint configuration
+# #React #Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Output Screenshots
+
+![]()
+
+![]()
+
+![]()
+
+![]()
