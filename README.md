@@ -10,10 +10,10 @@ A default redirect from / to /books is handled using the <Navigate> component, w
 
 Output Screenshots
 
-![]()
+![](ss1.png)
 
-![]()
+![](ss2.png)
 
-![]()
+![](ss3.png)
 
-![]()
+![](ss4.png)
